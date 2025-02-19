@@ -1,0 +1,79 @@
+body {
+   background-color:aqua;
+}
+
+
+#bar{
+   text-align: center;
+   color: white;
+   background-color:darkgray;
+   padding: 1px;
+   font-family:'Times New Roman', Times, serif;
+   clear: both;
+}
+
+
+#main-nav{
+   background-color: rgb(155, 191, 248);
+   text-align: center;
+}
+
+
+#main-nav li:hover {
+   background-color: gray;
+   color: white;
+
+
+}
+
+
+#main-nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   text-align: center;
+   padding: 10px;
+}
+
+
+.content-area {
+   width: 75%;
+   float: left;
+   margin: 0;
+}
+
+
+.content-box{
+   background-color: aliceblue;
+   color: black;
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 15px;
+}
+
+
+#rules{
+   text-align: center;
+   background-color: cornflowerblue;
+   border: 1px solid black;
+   border-radius: 15px;
+   float: right;
+   width: 22%;
+   margin-right: 10px;
+   margin-bottom: 5px;
+}
+
+
+#rules:hover {
+   background-color: azure;
+   color: black;
+}
+
+
+input[type="text"] {
+   width: 150px;
+}
+
+
+input[type="text"]:focus {
+   width: 200px;
+}
